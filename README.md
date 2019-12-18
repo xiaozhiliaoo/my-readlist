@@ -1,7 +1,8 @@
-# my-readlist
-我的阅读清单，记录没每本书的读书笔记～从2019-10月份开始记录
+## my readlist
+my readlist and read notes
 
-##2019
+### 2019
+####2019-12
+Effective_MySQL_Optimizing_SQL_Statements By Ronald Bradford [Notes](/2019/12/Effective_MySQL_Optimizing_SQL_Statements.md)
+                
 
-###2019-10
-《》

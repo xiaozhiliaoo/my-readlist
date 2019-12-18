@@ -22,138 +22,159 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-.idea
-*.iml
+*.class
 
-#==================
-# eclipse ignore
-#==================
-**/*.pydevproject
-**/.metadata
-**/.gradle
-**/bin/
-**/tmp/
-**/*.tmp
-**/*.bak
-**/*.swp
-**/*~.nib
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+### Eclipse template
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
 local.properties
-**/.settings/
-**/.loadpath
+.settings/
+.loadpath
+.recommenders
 
 # Eclipse Core
-**/.project
+.project
 
 # External tool builders
-**/.externalToolBuilders/
+.externalToolBuilders/
 
 # Locally stored "Eclipse launch configurations"
-**/*.launch
+*.launch
 
-# CDT-specific
-**/.cproject
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
 
 # JDT-specific (Eclipse Java Development Tools)
-**/.classpath
+.classpath
 
 # Java annotation processor (APT)
-**/.factorypath
+.factorypath
 
-# PDT-specific
-**/.buildpath
+# PDT-specific (PHP Development Tools)
+.buildpath
 
 # sbteclipse plugin
-**/.target
+.target
+
+# Tern plugin
+.tern-project
 
 # TeXlipse plugin
-**/.texlipse
+.texlipse
 
+# STS (Spring Tool Suite)
+.springBeans
 
+# Code Recommenders
+.recommenders/
+### Java template
 
+# Mobile Tools for Java (J2ME)
 
-#==================
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
-#==================
-**/*.iml
+# Package Files #
 
-## Directory-based project format:
-**/.idea/
-# if you remove the above rule, at least ignore the following:
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-# .idea/workspace.xml
-# .idea/tasks.xml
-# .idea/dictionaries
+.idea
+.idea/*
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
 
 # Sensitive or high-churn files:
-# .idea/dataSources.ids
-# .idea/dataSources.xml
-# .idea/sqlDataSources.xml
-# .idea/dynamic.xml
-# .idea/uiDesigner.xml
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
 
 # Gradle:
-# .idea/gradle.xml
-# .idea/libraries
+.idea/gradle.xml
+.idea/libraries
 
 # Mongo Explorer plugin:
-# .idea/mongoSettings.xml
+.idea/mongoSettings.xml
 
 ## File-based project format:
-**/*.ipr
-**/*.iws
+*.iws
 
 ## Plugin-specific files:
 
 # IntelliJ
-**/out/
+/out/
 
 # mpeltonen/sbt-idea plugin
-**/.idea_modules/
+.idea_modules/
 
 # JIRA plugin
-**/atlassian-ide-plugin.xml
+atlassian-ide-plugin.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
-**/com_crashlytics_export_strings.xml
-**/crashlytics.properties
-**/crashlytics-build.properties
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
+/*/target
+*.iml
+FILE_PATH_IS_UNDEFINED/
 
-
-#====================
-# java ignore
-#====================
-**/*.class
-**/*.log
-
-# Mobile Tools for Java (J2ME)
-**/.mtj.tmp/
-
-# Package Files #
-**/*.jar
-!gradle/wrapper/gradle-wrapper.jar
-**/*.war
-**/*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-**/hs_err_pid*
-
-#====================
-# maven ignore
-#====================
-
-**/target/
-**/pom.xml.tag
-**/pom.xml.releaseBackup
-**/pom.xml.versionsBackup
-**/pom.xml.next
-release.properties
-**/dependency-reduced-pom.xml
-**/buildNumber.properties
-**/.mvn/
-
-
-**/.DS_Store
-**/.springBeans
-
+*.log
+/.idea/*
+*.pid
+*.ipr
+*.iws
+*.war
+*.ear
+.settings
+target
+work
+.DS_Store
+.classpath
+.project
+.db
+.idea
+*.iml
+Thumbs.db
+.*~
+*.log
+*.jar
+*.bk
+logs
+*.o
+*.so
+*.swp
+*.json
+*.vec
+*.class
+*.bak
+*.backup
+*.mat
+*.tree.txt
+install
